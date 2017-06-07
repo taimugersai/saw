@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/txt/txt",
+    "pages/horizontal/horizontal",
+    "pages/gps/gps",
+    "pages/watch/watch",
+    "pages/weather/weather"
+  ],
+  "window": {
+    "navigationBarTitleText": "没软用的小工具"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

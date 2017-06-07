@@ -1,0 +1,24 @@
+/* pages/gps/gps.wxss */
+.info{
+    display: block;
+    width: 600rpx;
+    text-align: left;
+    margin-left: 150rpx;
+    margin-top: 40rpx;
+    font-family: "微软雅黑"
+}
+.empty{
+    width: 750rpx;
+    height: 40rpx;
+}
+.button{
+    width: 600rpx;
+    height: 80rpx;
+    margin-left: 75rpx;
+    background: #E64240;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    line-height: 80rpx;
+    margin-top: 50rpx;
+}

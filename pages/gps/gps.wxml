@@ -1,0 +1,7 @@
+
+<text class="info">当前经度：{{we}}{{ew}}°</text>
+<text class="info">  当前纬度：{{ns}}{{sn}}°</text>
+<view class="empty"></view>
+<map longitude="{ew}}" latitude="{{sn}}" markers="{{markers}}" covers="{{covers}}" style="width: 750rpx; height: 750rpx;"></map>
+<view class="empty"></view>
+<view class="button" bindtap="goback">返回首页</view>

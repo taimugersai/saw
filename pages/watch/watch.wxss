@@ -1,0 +1,24 @@
+/* pages/watch/watch.wxss */
+.contain{
+    width: 750rpx;
+    height: 400rpx;
+    margin-top: 200rpx;
+    font-size: 135rpx;
+    border:1px solid black;
+}
+.buttonlong{
+    position: fixed;
+    bottom: 0;
+    width: 750rpx;
+}
+.buttonshort{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 375rpx;
+}
+.buttonright{
+    position: fixed;
+    right: 0!important;
+    margin-right: 0;
+}

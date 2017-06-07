@@ -1,0 +1,80 @@
+/* pages/txt/txt.wxss */
+.body{
+    width: 750rpx;
+    height: 100vh;
+    padding-top: 40rpx;
+}
+.textarea{
+    display: inline-block;
+    width: 650rpx;
+    height: 80vh;
+    margin-left: 50rpx;
+    margin-top: 40rpx;
+    background: white;
+    font-family: "微软雅黑";
+    font-size: 30rpx;
+    /*text-indent: 2em!important;*/
+    overflow:hidden;
+    text-decoration:underline;
+    z-index: 0;
+}
+/*第一版操作区（以舍弃）*/
+.more{
+    position: fixed;
+    bottom: 50rpx;
+    right: 30rpx;
+    width:120rpx;
+    height: 120rpx;
+    border-radius: 60rpx; 
+    border: 2rpx dotted #707070;
+    z-index: 2;
+    text-align: center;
+
+}
+.more image{
+    width: 90rpx;
+    height: 90rpx;
+    margin-top: 15rpx;
+    z-index: 2;
+}
+.work{
+    position: fixed;
+    bottom: 100rpx;
+    right: 30rpx;
+    width:120rpx;
+    height: 360rpx;
+    border: 2rpx dotted #707070;
+    border-bottom: none;
+    z-index: 1
+}
+.workdetail{
+    width: 100%;
+    height: 70rpx;
+    text-align: center;
+    line-height: 60rpx;
+    font-family: "微软雅黑";
+    font-size: 35rpx;
+    margin-top: 15rpx;
+}
+/*第二版操作区*/
+.bottom{
+    width: 750rpx;
+    height: 90rpx;
+    position: fixed;
+    bottom: 0;
+}
+.works{
+    width: 200rpx;
+    height: 60rpx;
+    display: inline-block;
+    margin-left: 37.5rpx;
+    border: 1px solid black;
+    font-family: "微软雅黑";
+    text-align: center;
+    border-radius: 6px;
+    line-height: 60rpx;
+    font-size: 30rpx;
+}
+.hidden{
+    display: none;
+}

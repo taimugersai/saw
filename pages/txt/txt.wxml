@@ -1,0 +1,17 @@
+<view class="body">
+   <textarea class="textarea" bindblur="bindTextAreaBlur" auto-focus maxlength="0"  placeholder="写些什么" />
+   <view class="more">
+        <image src="{{imgurl}}"  bindtap="more"></image>
+   </view>
+   <view class="work {{hidden}}">
+        <view class="workdetail">保存</view>
+        <view class="workdetail">查看</view>
+        <view class="workdetail">取消</view>
+   </view>
+   <!--<view class="bottom">
+        <view class="works">保存</view>
+        <view class="works">查看</view>
+        <view class="works">取消</view>
+   </view>-->
+</view>
+

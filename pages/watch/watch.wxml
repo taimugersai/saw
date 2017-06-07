@@ -1,0 +1,11 @@
+<!--pages/watch/watch.wxml-->
+<view class="contain">
+{{hours1}}{{hours2}}:{{minutes1}}{{minutes2}}:{{seconds1}}{{seconds2}}.{{ms1}}{{ms2}}
+</view>
+<view wx:for="{{list}}">{{index}}---   {{item}}</view>
+
+<button wx:if="{{status=='开始'}}" type="primary" class="buttonlong" bindtap="start"> {{status}} </button>
+<button wx:if="{{status=='暂停'}}" type="warn" class="buttonshort" bindtap="start">{{status}}</button>
+<button wx:if="{{status=='暂停'}}" type="default" class="buttonshort buttonright" bindtap="add">计时</button>
+<button wx:if="{{status=='继续'}}" type="primary" class="buttonshort" bindtap="start">{{status}}</button>
+<button wx:if="{{status=='继续'}}" type="warn" class="buttonshort buttonright" bindtap="reset">重置</button>

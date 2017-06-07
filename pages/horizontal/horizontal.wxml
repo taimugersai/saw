@@ -1,0 +1,13 @@
+<!--pages/horizontal/horizontal.wxml-->
+<text>
+x:{{x}},
+y:{{y}},
+z:{{z}}
+
+
+
+</text>
+
+<view class="bigcir">
+    <view class="smlcir" animation="{{animationData}}"></view>
+</view>

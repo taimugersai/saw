@@ -1,0 +1,17 @@
+/* pages/horizontal/horizontal.wxss */
+.bigcir{
+    width: 500rpx;
+    height: 500rpx;
+    border-radius: 250rpx;
+    border: 1px solid black;
+    position: relative;
+}
+.smlcir{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 75rpx;
+    border: 1px solid black;
+    position: absolute;
+    left: 175rpx;
+    top:175rpx;
+}
